@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="list-group">
+        <app-post-list-item *ngFor="let post of posts" [post]="post" [authStatus]="authStatus">
+        </app-post-list-item>
+        <app-new-post  *ngIf="authStatus"></app-new-post>
+      </ul>
+    </div>
+  </div>
+</div>

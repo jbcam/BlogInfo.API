@@ -1,0 +1,12 @@
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\bin\BNB\Debug\netcoreapp2.0\NLog.config
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\bin\BNB\Debug\netcoreapp2.0\BlogInfo.API.deps.json
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\bin\BNB\Debug\netcoreapp2.0\BlogInfo.API.runtimeconfig.json
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\bin\BNB\Debug\netcoreapp2.0\BlogInfo.API.runtimeconfig.dev.json
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\bin\BNB\Debug\netcoreapp2.0\BlogInfo.API.dll
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\bin\BNB\Debug\netcoreapp2.0\BlogInfo.API.pdb
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\obj\BNB\Debug\netcoreapp2.0\BlogInfo.API.csprojAssemblyReference.cache
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\obj\BNB\Debug\netcoreapp2.0\BlogInfo.API.csproj.CoreCompileInputs.cache
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\obj\BNB\Debug\netcoreapp2.0\BlogInfo.API.AssemblyInfoInputs.cache
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\obj\BNB\Debug\netcoreapp2.0\BlogInfo.API.AssemblyInfo.cs
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\obj\BNB\Debug\netcoreapp2.0\BlogInfo.API.dll
+C:\Users\jbcamaret\source\repos\BlogInfo.API\BlogInfo.API\obj\BNB\Debug\netcoreapp2.0\BlogInfo.API.pdb

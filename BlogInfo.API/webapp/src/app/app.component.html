@@ -1,0 +1,16 @@
+ <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" routerLink="blog">My Blog</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li routerLinkActive="nav-item active"><a class="nav-link" routerLink="blog">Post</a></li>
+      <li routerLinkActive="nav-item active"><a class="nav-link" routerLink="auth">Login</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{E30BB19F-5D14-447D-AE4B-FB55E5027CA5}|Default">
+  <MonoDevelop.Ide.ItemProperties.BlogInfo.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlogInfo.API/appSettings.json">
+    <Files>
+      <File FileName="BlogInfo.API/Controllers/BlogPostsController.cs" Line="1" Column="1" />
+      <File FileName="BlogInfo.API/webapp/.gitignore" Line="14" Column="11" />
+      <File FileName="BlogInfo.API/webapp/package.json" Line="1" Column="1" />
+      <File FileName="BlogInfo.API/webapp/src/app/models/blog.model.ts" Line="9" Column="23" />
+      <File FileName="BlogInfo.API/webapp/src/app/post-list/post-list.component.ts" Line="2" Column="36" />
+      <File FileName="BlogInfo.API/Program.cs" Line="21" Column="1" />
+      <File FileName="BlogInfo.API/Startup.cs" Line="1" Column="1" />
+      <File FileName="BlogInfo.API/appSettings.json" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

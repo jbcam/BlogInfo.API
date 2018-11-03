@@ -1,0 +1,29 @@
+<li [ngClass]="{'list-group-item': true, 'list-group-item-success' : post.likes> 0,'list-group-item-danger': post.likes < 0}" *ngIf="!updateMode">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.contents }}</p>
+      <span class="timestamp"> {{ post.createdAt | date: 'short' }}</span>
+      <button class="btn btn-success" (click)="onLike()">Love it!</button>
+      <button class="btn btn-danger" (click)="onDislike()">Don't love it!</button>
+      <span class="badge badge-light">{{ post.likes }}</span>
+      <button class="btn btn-secondary" (click)="onDelete()" *ngIf="authStatus">Delete</button>
+      <button class="btn btn-secondary" (click)="onUpdate()" *ngIf="authStatus">Update</button>
+    </div>
+  </div>
+</li>
+<li class="list-group-item"*ngIf="updateMode">
+  <form [formGroup]="updateForm" (ngSubmit)="onSaveUpdate()">
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" id="title" class="form-control" formControlName="title">
+    </div>
+    <div class="form-group">
+      <label for="contents">Contents:</label>
+      <textarea class="form-control" id="contents" rows="5" formControlName="contents"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</li>
+
+
