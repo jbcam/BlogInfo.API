@@ -1,2 +1,2 @@
 # BlogInfo.API
-Angular Blog app with ASP.net core Backend 
+Angular Blog app with ASP.net API 
