@@ -8,11 +8,22 @@ namespace BlogInfo.API.Services
 {
     public class BlogInfoRepository : IBlogInfoRepository
     {
+        //SQL SERVER
         private BlogInfoContext _context;
+
         public BlogInfoRepository(BlogInfoContext context)
         {
             _context = context;
         }
+
+        //SQLite
+        //private BlogInfoContextSQLite _context;
+      
+        //public BlogInfoRepository(BlogInfoContextSQLite context)
+        //{
+        //    _context = context;
+        //}
+
         public bool PostExists(int postId)
         {
             return _context.BlogPosts.Any(p => p.Id == postId);

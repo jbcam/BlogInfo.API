@@ -9,12 +9,15 @@ namespace BlogInfo.API.Services
 {
     public class UserService : IUserService
     {
+        // SQL Server
         private BlogInfoContext _context;
 
         public UserService(BlogInfoContext context)
         {
             _context = context;
         }
+
+
 
         public User Authenticate(string username, string password)
         {

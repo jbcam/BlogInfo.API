@@ -1,0 +1,6 @@
+# Mac OSX Finder hidden files
+.DS_Store
+# DB files
+*.db
+# app settings:
+appSettings.json

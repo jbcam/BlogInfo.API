@@ -26,9 +26,16 @@ namespace BlogInfo.API
     {
         public static IConfiguration Configuration { get; private set; }
 
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment env)
         {
             Configuration = configuration;
+
+            // SQLite
+
+            //using (var client = new BlogInfoContext(dbPath))
+            //{
+            //   client.Database.EnsureCreated();
+            //}
         }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
@@ -37,10 +44,16 @@ namespace BlogInfo.API
             services.AddCors();
             services.AddMvc();
 
-            var connectionString = Startup.Configuration["connectionStrings:BlogInfoDBConnectionString"];
+            // SQL Server
+            //var connectionString = Startup.Configuration["connectionStrings:BlogInfoDBConnectionString"];
             //String providerName = "System.Data.EntityClient";
-            services.AddDbContext<BlogInfoContext>(o => o.UseSqlServer(connectionString));
+            //services.AddDbContext<BlogInfoContext>(options => options.UseSqlServer(connectionString));
+            //.Database.Migrate(); to check if can be added there
 
+            //SQLlite
+            var dbPath = Startup.Configuration["dbPathSQLite:BlogInfoDBPath"];
+            services.AddDbContext<BlogInfoContext>(options => options.UseSqlite(dbPath));
+        
             // configure DI for application services
             services.AddScoped<IBlogInfoRepository, BlogInfoRepository>();
             services.AddScoped<IUserService, UserService>();
